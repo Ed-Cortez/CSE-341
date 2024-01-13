@@ -12,8 +12,13 @@ const gatito = (req, res) => {
     res.send("Gatito Cortez");
   };
 
+const contacts = (req, res) => {
+    res.send("Here go the contacts");
+  };
+
 module.exports = {
     eduardoCortez,
     luz,
-    gatito
+    gatito,
+    contacts
 };

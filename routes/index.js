@@ -5,5 +5,7 @@ routes.get('/', lesson1Controller.eduardoCortez);
 routes.get('/luz', lesson1Controller.luz);
 routes.get('/gatito', lesson1Controller.gatito);
 
+routes.use('/contacts', require('./contacts'));
+
 
 module.exports = routes;
