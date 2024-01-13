@@ -1,3 +1,8 @@
+## Routes
+GET https://cse-341-w01-y42y.onrender.com/
+GET https://cse-341-w01-y42y.onrender.com/luz
+GET https://cse-341-w01-y42y.onrender.com/gatito
+
 ### Get All contacts
 GET https://cse-341-w01-y42y.onrender.com/contacts
 

@@ -1,6 +1,10 @@
+const path = require('path');
+
+
 const eduardoCortez = (req, res) => {
-    res.send("Eduardo Cortez");
-  };
+  const filePath = path.join(__dirname, '../public/index.html');
+  res.sendFile(filePath);
+};
 
 
 const luz = (req, res) => {
