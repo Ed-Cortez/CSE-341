@@ -1,0 +1,9 @@
+### Get All contacts
+GET https://cse-341-w01-y42y.onrender.com/contacts
+
+
+### Get contact by id
+GET https://cse-341-w01-y42y.onrender.com/contacts/65a20f00b655d2debb89acd2
+GET https://cse-341-w01-y42y.onrender.com/contacts/65a21154b655d2debb89acd6
+GET https://cse-341-w01-y42y.onrender.com/contacts/65a21196b655d2debb89acd7
+
