@@ -1,6 +1,4 @@
 const path = require('path');
-
-
 const eduardoCortez = (req, res) => {
   const filePath = path.join(__dirname, '../public/index.html');
   res.sendFile(filePath);

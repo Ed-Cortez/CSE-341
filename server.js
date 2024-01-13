@@ -2,11 +2,14 @@
 const express = require('express');
 const mongodb = require('./data/database');
 const app = express();
+const path = require('path');
+
 
 
 const port = process.env.PORT || 4000;
- 
+
 app.use('/', require('./routes'));
+app.use(express.static(path.join(__dirname, 'public')));
 
 
 mongodb.initDb((err) => {
