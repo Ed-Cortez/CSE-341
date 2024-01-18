@@ -6,11 +6,13 @@ const eduardoCortez = (req, res) => {
 
 
 const luz = (req, res) => {
+  //#swagger.tags=['Extras']
     res.send("Luz de Cortez");
   };
 
 
 const gatito = (req, res) => {
+  //#swagger.tags=['Extras']
     res.send("Gatito Cortez");
   };
 

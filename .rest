@@ -12,3 +12,37 @@ GET https://cse-341-w01-y42y.onrender.com/contacts/65a20f00b655d2debb89acd2
 GET https://cse-341-w01-y42y.onrender.com/contacts/65a21154b655d2debb89acd6
 GET https://cse-341-w01-y42y.onrender.com/contacts/65a21196b655d2debb89acd7
 
+############################ LOCAL #############################
+
+## GET 
+GET http://localhost:4000/contacts/
+
+### Create contact
+POST http://localhost:4000/contacts/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "thisisanexample@example.com",
+    "username": "thisisauser@example.com",
+    "birthday": "01/09/2009",
+    "favoriteColor": "blackout",
+    "firstName": "Juanito",
+    "lastName": "Benecia"
+}
+
+### PUT Contact
+
+PUT http://localhost:4000/contacts/65a20f00b655d2debb89acd2 HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "thisisanexample@example.com",
+    "username": "thisisauser@example.com",
+    "birthday": "01/09/2009",
+    "favoriteColor": "blackout",
+    "firstName": "Juanito",
+    "lastName": "Benecia"
+}
+
+### Delete 
+DELETE http://localhost:4000/contacts/65a7562b6faf3bb23c27b452 HTTP/1.1
